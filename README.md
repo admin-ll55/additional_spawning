@@ -1,2 +1,8 @@
-# additional_spawning
-A data pack that spawns rare mobs in Minecraft 1.13.1.
+# Additional Spawning
+Increase spawn rate of rare mobs under specific conditions.
+
+# Usage
+Plug and play. (Default settings are 7000 ticks spawning cooldown and 5 maximum additional spawns.)
+
+# Caution & Disclaimer
+The data pack is to conpensate losses from prohibiting mob farms due to entities overpopulation.
