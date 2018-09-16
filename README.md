@@ -1,6 +1,6 @@
 # Additional Spawning
-Spawn More Rare Mobs
-Disable Breeding to Prohibit Mob Farms
+Spawn More Rare Mobs<br>
+Disable Breeding to Prohibit Mob Farms<br>
 Disable Mob AI to Reallocate Server Resources
 
 # Usage
