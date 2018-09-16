@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "deep_cold_ocean",
+                "dimension": "overworld",
+                "feature": "Monument"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb"
+        ]
+    ],
+    "rewards": {
+        "function": "additionalspawning:load/load_elder_guardian"
+    }
+}

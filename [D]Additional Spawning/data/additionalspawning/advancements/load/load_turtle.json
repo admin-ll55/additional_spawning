@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "beach",
+                "dimension": "overworld"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb"
+        ]
+    ],
+    "rewards": {
+        "function": "additionalspawning:load/load_turtle"
+    }
+}
