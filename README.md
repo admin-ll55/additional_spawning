@@ -1,8 +1,10 @@
 # Additional Spawning
-Increase spawn rate of rare mobs under specific conditions.
+Spawn More Rare Mobs
+Disable Breeding to Prohibit Mob Farms
+Disable Mob AI to Reallocate Server Resources
 
 # Usage
-Plug and play.<br>
+Plug and play.
 
 # Configuration
 https://www.planetminecraft.com/project/additional-spawning-data-pack/
