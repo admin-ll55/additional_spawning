@@ -9,5 +9,5 @@ scoreboard players add turtleposz additionalspawni 1
 execute store result entity @e[tag=addspaturtle,limit=1] HomePosX int 1 run scoreboard players get turtleposx additionalspawni
 execute store result entity @e[tag=addspaturtle,limit=1] HomePosY int 1 run scoreboard players get turtleposy additionalspawni
 execute store result entity @e[tag=addspaturtle,limit=1] HomePosZ int 1 run scoreboard players get turtleposz additionalspawni
-execute at @s run tag @e[tag=addspaturtle,sort=nearest,limit=5] add keepaddspaturtle
+execute at @s run tag @e[tag=addspaturtle,limit=5] add keepaddspaturtle
 execute as @e[tag=addspaturtle,tag=!keepaddspaturtle] run tp @s ~ -100 ~
