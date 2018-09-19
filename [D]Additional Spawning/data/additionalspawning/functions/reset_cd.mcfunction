@@ -1,0 +1,16 @@
+scoreboard players set @s chargedcrspawncd 0
+scoreboard players set @s chickenspawncd 0
+scoreboard players set @s cowspawncd 0
+scoreboard players set @s elderguarspawncd 0
+scoreboard players set @s irongolemspawncd 0
+scoreboard players set @s magmacubespawncd 0
+scoreboard players set @s ocelotspawncd 0
+scoreboard players set @s parrotspawncd 0
+scoreboard players set @s pigspawncd 0
+scoreboard players set @s rabbitspawncd 0
+scoreboard players set @s sheepspawncd 0
+scoreboard players set @s slimespawncd 0
+scoreboard players set @s squidspawncd 0
+scoreboard players set @s turtlespawncd 0
+scoreboard players set @s villagerspawncd 0
+scoreboard players set @s witchspawncd 0

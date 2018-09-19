@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb"
+        ]
+    ],
+    "rewards": {
+        "function": "additionalspawning:tick/tick_chicken"
+    }
+}
