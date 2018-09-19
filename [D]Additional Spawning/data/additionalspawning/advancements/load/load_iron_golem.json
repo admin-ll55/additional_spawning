@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "feature": "Village"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb"
+        ]
+    ],
+    "rewards": {
+        "function": "additionalspawning:load/load_iron_golem"
+    }
+}

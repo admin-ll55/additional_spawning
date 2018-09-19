@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "aa": {
+            "trigger": "minecraft:tick"
+        },
+        "bb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld"
+            }
+        },
+        "cc": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_nether"
+            }
+        },
+        "dd": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "the_end"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "aa"
+        ],
+        [
+            "bb",
+            "cc",
+            "dd"
+        ]
+    ],
+    "rewards": {
+        "function": "additionalspawning:load/load"
+    }
+}
